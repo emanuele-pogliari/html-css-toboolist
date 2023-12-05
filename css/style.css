@@ -30,8 +30,9 @@ img {
     vertical-align: middle;
 }
 
-
 /* fine nav */
+
+/* Inizio main */
 
 main {
     background-color: white;
@@ -41,12 +42,13 @@ main {
     border-radius: 5px;
 }
 
+/* inizio stilizzazione button */
+
 .style-button {
     padding: 7px;
     background-color: white;
     border-radius: 5px;
 }
-
 
 .button1 {
     background-color: #47adf1;
@@ -60,8 +62,26 @@ main {
     padding: 7px 10px;
 }
 
+/*fine stilizzazione button */
+
+/* Inizio stile section */
+
+.sections {
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*fine stile section */
+
+/* inizio stilizzazione task */
+
 p {
     display: inline-block;
+    font-size: 1.2em;
 }
 
 .marks {
@@ -70,7 +90,7 @@ p {
     border: 1px solid black;
     border-radius: 50%;
     text-align: center;
-    padding: 3px 6px;
+    padding: 2px 5px;
     margin-top: 15px;
     margin-right: 5px;
 
@@ -86,6 +106,9 @@ p {
     border-color: red;
 }
 
+
+/* inizio stilizzazione tag */
+
 .tag-style {
     background-color: #45abea;
     display: inline-block;
@@ -93,19 +116,6 @@ p {
     border-radius: 12px;
     color: white;
     font-size: 0.8em;
-}
-
-.sections {
-    padding: 20px;
-}
-
-.section-title {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-p {
-    font-size: 1.2em;
 }
 
 .tag-q1 {
@@ -127,3 +137,5 @@ p {
 .tag-sales {
     background-color: #b0c925;
 }
+
+/*fine stilizzazione tag */
