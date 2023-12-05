@@ -1,0 +1,23 @@
+/* Reset rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav */
+
+nav {
+    background-color: white;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+#brand-name {
+    display: inline-block;
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+/* fine nav */
