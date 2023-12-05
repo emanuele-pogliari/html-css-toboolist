@@ -35,10 +35,21 @@ img {
 /* Inizio main */
 
 main {
-    background-color: white;
     width: 80%;
     margin: auto;
     padding: 15px 50px 10px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.task-section {
+    background-color: white;
+    padding: 20px 40px 10px;
+    margin-bottom: 2px;
     border-radius: 5px;
 }
 
@@ -67,7 +78,7 @@ main {
 /* Inizio stile section */
 
 .sections {
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .section-title {
