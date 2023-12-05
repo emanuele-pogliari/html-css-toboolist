@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* aggiunta sfondo */
+
+body {
+    background-color: #f6f8f9;
+    font-family: sans-serif;
+}
 
 /* nav */
 
@@ -17,7 +23,33 @@ nav {
 #brand-name {
     display: inline-block;
     font-size: 2.5em;
-    font-family: sans-serif;
 }
 
 /* fine nav */
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 15px 50px 10px;
+    border-radius: 5px;
+}
+
+.style-button {
+    padding: 7px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.button1 {
+    background-color: #47adf1;
+    color: white;
+    border: 1px solid #66b7f3;
+}
+
+.button2 {
+    border: 1px solid grey;
+    color: grey;
+    padding: 7px 10px;
+}
