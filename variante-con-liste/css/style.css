@@ -1,0 +1,33 @@
+/* Reset rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aggiunta sfondo */
+
+body {
+    background-color: #f6f8f9;
+    font-family: sans-serif;
+}
+
+/* nav */
+
+nav {
+    background-color: white;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+}
+
+#brand-name {
+    display: inline-block;
+    font-size: 2.5em;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* fine nav */
