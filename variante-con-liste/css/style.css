@@ -135,3 +135,25 @@ li {
     color: white;
     font-size: 0.6em;
 }
+
+.tag-q1 {
+    background-color: #9c72e4;
+}
+
+.tag-recruiting {
+    background-color: #64c0a9;
+}
+
+.tag-mobile {
+    background-color: #f19e34;
+}
+
+.tag-website {
+    background-color: #d863a1;
+}
+
+.tag-sales {
+    background-color: #b0c925;
+}
+
+/* fine stilizzazione section */
