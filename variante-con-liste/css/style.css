@@ -32,7 +32,7 @@ img {
 
 /* fine nav */
 
-/* Inizio main */
+/* main */
 
 main {
     width: 80%;
@@ -44,13 +44,6 @@ main {
     background-color: white;
     border-radius: 5px;
     padding-top: 10px;
-}
-
-.task-section {
-    background-color: white;
-    padding: 20px 40px 10px;
-    margin-bottom: 2px;
-    border-radius: 5px;
 }
 
 /* inizio stilizzazione button */
@@ -68,9 +61,77 @@ main {
 }
 
 .button2 {
-    border: 1px solid grey;
-    color: grey;
+    border: 1px solid #d8dce0;
+    color: #d8dce0;
     padding: 7px 10px;
 }
 
-/*fine stilizzazione button */
+/* fine stilizzazione button */
+
+/* inizio sezione task */
+
+.sections {
+    padding: 20px 40px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.arrow-down {
+    margin-right: 5px;
+}
+
+.task-section {
+    background-color: white;
+    padding: 20px 40px 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+/* stilizzazione liste */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+/* stilizzazione simboli */
+
+.marks {
+    display: inline-block;
+    font-size: 0.6em;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2px 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.checks {
+    color: #65c0aa;
+    border-color: #65c0aa;
+}
+
+.missed {
+    color: red;
+    border-color: red;
+}
+
+/* stilizzazione tag */
+
+.tag-style {
+    background-color: #45abea;
+    display: inline-block;
+    padding: 7px 11px;
+    border-radius: 12px;
+    color: white;
+    font-size: 0.6em;
+}
